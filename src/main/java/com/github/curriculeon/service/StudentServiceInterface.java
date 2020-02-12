@@ -15,5 +15,4 @@ public interface StudentServiceInterface {
     Boolean validateStudent(String email, String password);
     void registerStudentToCourse(String studentEmail, int courseId);
     List<CourseInterface> getStudentCourses(String studentEmail);
-    List<CourseInterface> getAllCourses();
 }
