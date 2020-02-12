@@ -8,7 +8,6 @@ import java.util.Scanner;
  * @author leonhunter
  * @created 02/12/2020 - 6:01 PM
  */
-
 public class IOConsole {
     private final Scanner input;
     private final PrintStream output;
