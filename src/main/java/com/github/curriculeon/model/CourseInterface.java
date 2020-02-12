@@ -5,7 +5,6 @@ public interface CourseInterface {
     String getName();
     String getInstructor();
 
-
     void setId(Integer id);
     void setName(String name);
     void setInstructor(String instructor);
