@@ -137,11 +137,11 @@
 
 
 #### Part 3 - Create DAO Classes
-* Using each of the interfaces provided in the `service` package as a guide, create a service for each of the aforementioned tables.
+* Using each of the interfaces provided in the `dao` package as a guide, create a service for each of the aforementioned tables.
 
 
 
 #### Part 4 - Create Service Classes
-* Using each of the interfaces provided in `model`, `service`, and `dao` packages as a guide, create a model for each of the aforementioned tables.
+* Using each of the interfaces provided in and `dao` packages as a guide, create a service for each of the aforementioned interfaces.
 * You can **NOT** add more methods in the interfaces than the definition below.
 * In `dao` package, under the package names: jpa.dao, create an interface and call it StudentDAO. This interface is going to be have the following method declarations. Please include the proper method signature based on the Service table:

@@ -11,8 +11,8 @@ import java.util.List;
  */
 public interface StudentDao {
     List<StudentInterface> getAllStudents();
-    StudentInterface getStudentByEmail();
-    Boolean validateStudent();
-    void registerStudentToCourse();
-    List<CourseInterface> getStudentCourses();
+    StudentInterface getStudentByEmail(String email);
+    Boolean validateStudent(String email, String password);
+    void registerStudentToCourse(String studentEmail, int courseId);
+    List<CourseInterface> getStudentCourses(String studentEmail);
 }
