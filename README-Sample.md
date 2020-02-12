@@ -13,12 +13,6 @@
 
 
 
-## Objective
-
-#### Part 1 - ...
-* Ensure that all test cases in `com.github.curriculeon` pass with 100% success rate. 
-
-
 
 
 ## How to Download
@@ -66,3 +60,121 @@
 * from the browser, navigate to the _forked_ project from **your** github account.
 * click the `Pull Requests` tab.
 * select `New Pull Request`
+
+
+
+
+
+## Objective
+
+#### Part 1 - Tables
+* Use your RDBMS to that stores the following tables.
+* The tables should contain the columns from the specification below.
+* You can generate the required tables (without rows) from your entities by using JPA.
+
+
+
+##### Table 1 – Student
+* Column1
+    * Column Name: `email`
+    * Column Data-Type: `varchar(50) not null (PK)`
+    * Column Description: Student's current school email, unique student identifier
+* Column2
+    * Column Name: `name`
+    * Column Data-Type: `varchar(50) not null`
+    * Column Description: The full name of the student
+* Column3
+    * Column Name: `password`
+    * Column Data-Type: `varchar(50) not null`
+    * Column Description: Student's password used to log in
+    
+    
+##### Table 2 – Course
+* Column1
+    * Column Name: 
+    * Column Data-Type:
+    * Column Description:
+* Column1
+    * Column Name: 
+    * Column Data-Type:
+    * Column Description:
+* Column1
+    * Column Name: 
+    * Column Data-Type:
+    * Column Description:
+    
+
+
+
+ 
+Datatype
+	
+
+Name
+	
+
+Description
+
+varchar(50) not null (PK)
+	
+
+email
+	
+
+Student’s current school email, unique student identifier
+
+varchar(50) not null
+	
+
+name
+	
+
+The full name of the student
+
+varchar(50) not null
+	
+
+password
+	
+
+Student’s password in order to log in
+
+ 
+
+ 
+
+Table 2 – Course table:
+
+Datatype
+	
+
+Name
+	
+
+Description
+
+int not null (PK)
+	
+
+id
+	
+
+Unique Course Identifier
+
+varchar(50) not null
+	
+
+name
+	
+
+Provides the name of the course
+
+varchar(50) not null
+	
+
+Instructor
+	
+
+Provides the name of the instructor
+
+Now, insert test/dummy rows in Table 1 and Table 2 using SQL statements. Necessary SQL statements will be found here: Student.sqlPreview the document and Course.sqlPreview the document
