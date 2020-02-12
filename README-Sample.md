@@ -67,10 +67,12 @@
 
 ## Objective
 
-#### Part 1 - Tables
-* Use your RDBMS to that stores the following tables.
-* The tables should contain the columns from the specification below.
-* You can generate the required tables (without rows) from your entities by using JPA.
+#### Part 1A - Creating Tables
+* Use your RDBMS to store the following tables.
+* The tables should contain the columns from the specifications below.
+* You can generate the required tables (without data populated) from your entities by using JPA.
+* Place each of the `CREATE` statements in their respective `*.sql` file locations.
+    * Each `*.sql` file can be found in the [resources directory](./src/main/resources) of this project.
 
 
 
@@ -91,90 +93,26 @@
     
 ##### Table 2 – Course
 * Column1
-    * Column Name: 
-    * Column Data-Type:
-    * Column Description:
-* Column1
-    * Column Name: 
-    * Column Data-Type:
-    * Column Description:
-* Column1
-    * Column Name: 
-    * Column Data-Type:
-    * Column Description:
-    
+    * Column Name: `id`
+    * Column Data-Type: `int not null (PK)`
+    * Column Description: Unique course identifier
+* Column2
+    * Column Name: `name` 
+    * Column Data-Type: `varchar(50) not null`
+    * Column Description: provides the name of the course
+* Column3
+    * Column Name: `instructor` 
+    * Column Data-Type: `varchar(50) not null`
+    * Column Description: provides the name of the instructor
+
+* **REMINDER**
+    * Place each of the `CREATE` statements in their respective `*.sql` file locations.
+        * Each `*.sql` file can be found in the [resources directory](./src/main/resources) of this project.
 
 
-
- 
-Datatype
-	
-
-Name
-	
-
-Description
-
-varchar(50) not null (PK)
-	
-
-email
-	
-
-Student’s current school email, unique student identifier
-
-varchar(50) not null
-	
-
-name
-	
-
-The full name of the student
-
-varchar(50) not null
-	
-
-password
-	
-
-Student’s password in order to log in
-
- 
-
- 
-
-Table 2 – Course table:
-
-Datatype
-	
-
-Name
-	
-
-Description
-
-int not null (PK)
-	
-
-id
-	
-
-Unique Course Identifier
-
-varchar(50) not null
-	
-
-name
-	
-
-Provides the name of the course
-
-varchar(50) not null
-	
-
-Instructor
-	
-
-Provides the name of the instructor
+#### Part 1B - Populating tables
 
 Now, insert test/dummy rows in Table 1 and Table 2 using SQL statements. Necessary SQL statements will be found here: Student.sqlPreview the document and Course.sqlPreview the document
+
+* Place each of the `CREATE` statements in their respective `*.sql` file locations.
+    * Each `*.sql` file can be found in the [resources directory](./src/main/resources) of this project.
