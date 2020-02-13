@@ -3,7 +3,6 @@ package com.github.perscholas.service.courseservice;
 import com.github.perscholas.JdbcConfigurator;
 import com.github.perscholas.utils.DirectoryReference;
 import org.junit.Before;
-import org.junit.Test;
 
 import java.io.File;
 
@@ -12,7 +11,7 @@ import java.io.File;
  * @created 02/12/2020 - 8:26 PM
  */
 public class GetAllCoursesTest {
-    @Before // TODO - Use files to execute SQL commands
+    @Before // TODO (OPTIONAL) - Use files to execute SQL commands
     public void setup() {
         DirectoryReference directoryReference = DirectoryReference.RESOURCE_DIRECTORY;
         File coursesSchemaFile = directoryReference.getFileFromDirectory("courses.create-table.sql");

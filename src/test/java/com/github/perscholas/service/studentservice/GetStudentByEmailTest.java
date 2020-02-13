@@ -11,7 +11,7 @@ import java.io.File;
  * @created 02/12/2020 - 8:23 PM
  */
 public class GetStudentByEmailTest {
-    @Before // TODO - Use files to execute SQL commands
+    @Before // TODO (OPTIONAL) - Use files to execute SQL commands
     public void setup() {
         DirectoryReference directoryReference = DirectoryReference.RESOURCE_DIRECTORY;
         File coursesSchemaFile = directoryReference.getFileFromDirectory("courses.create-table.sql");
@@ -27,7 +27,8 @@ public class GetStudentByEmailTest {
     }
 
     // given
-    private void test() {
+    // TODO - Add `@Test` annotation
+    public void test() {
         JdbcConfigurator.initialize();
 
         // when

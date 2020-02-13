@@ -15,7 +15,7 @@ import java.util.List;
  * @created 02/12/2020 - 8:22 PM
  */
 public class GetAllStudentsTest {
-    @Before // TODO - Use files to execute SQL commands
+    @Before // TODO (OPTIONAL) - Use files to execute SQL commands
     public void setup() {
         DirectoryReference directoryReference = DirectoryReference.RESOURCE_DIRECTORY;
         File coursesSchemaFile = directoryReference.getFileFromDirectory("courses.create-table.sql");
@@ -31,7 +31,8 @@ public class GetAllStudentsTest {
     }
 
     // given
-    private void test() {
+    // TODO - Add `@Test` annotation
+    public void test() {
         JdbcConfigurator.initialize();
         StudentDao service = (StudentDao) new StudentService();
 
