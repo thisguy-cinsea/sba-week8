@@ -1,8 +1,5 @@
 package com.github.perscholas.service;
 
-/**
- * @author leonhunter
- * @created 02/12/2020 - 5:57 PM
- */
+// TODO - Implement respective DAO interface
 public class StudentService {
 }
