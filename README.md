@@ -5,7 +5,7 @@
 * **Purpose**
     * To demonstrate understanding of the integration of SQL and JDBC
 * **Description**
-    * Only students with the right credentials can log in. Otherwise, a message is displayed stating: “Wrong Credentials”.
+    * Only students with the right credentials can log in. Otherwise, a message is displayed stating: `“Wrong Credentials”`.
         1. Valid students are able to see the courses they are registered.
         2. Valid students are able to register to any course in the system as long as they are NOT already registered.
 
