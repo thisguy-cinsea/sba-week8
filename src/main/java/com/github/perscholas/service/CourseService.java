@@ -1,4 +1,4 @@
-package com.github.curriculeon.service;
+package com.github.perscholas.service;
 
 /**
  * @author leonhunter

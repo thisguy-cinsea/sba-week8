@@ -1,4 +1,4 @@
-package com.github.curriculeon.utils;
+package com.github.perscholas.utils;
 
 import java.io.InputStream;
 import java.io.PrintStream;

@@ -1,6 +1,6 @@
-package com.github.curriculeon;
+package com.github.perscholas;
 
-import com.github.curriculeon.utils.IOConsole;
+import com.github.perscholas.utils.IOConsole;
 
 import java.util.ArrayList;
 import java.util.List;

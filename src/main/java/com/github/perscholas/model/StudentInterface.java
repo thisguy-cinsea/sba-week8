@@ -1,4 +1,4 @@
-package com.github.curriculeon.model;
+package com.github.perscholas.model;
 
 public interface StudentInterface {
     String getEmail();
