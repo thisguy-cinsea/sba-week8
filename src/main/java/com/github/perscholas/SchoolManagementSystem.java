@@ -13,14 +13,14 @@ public class SchoolManagementSystem implements Runnable {
     public void run() {
         String smsDashboardInput = getSchoolManagementSystemDashboardInput();
         if ("login".equals(smsDashboardInput)) {
-            StudentDao studentService = null;
+            StudentDao studentService = null; // TODO
             String studentEmail = console.getStringInput("Enter your email:");
             String studentPassword = console.getStringInput("Enter your password:");
             if (studentService.validateStudent(studentEmail, studentPassword)) {
                 String studentDashboardInput = getStudentDashboardInput();
                 if ("register".equals(studentDashboardInput)) {
                     Integer courseId = getCourseRegistryInput();
-                    CourseInterface course = null;
+                    CourseInterface course = null; // TODO
                     // TODO
                 }
             }
