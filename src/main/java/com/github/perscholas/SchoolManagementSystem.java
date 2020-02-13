@@ -1,7 +1,6 @@
 package com.github.perscholas;
 
 import com.github.perscholas.dao.StudentDao;
-import com.github.perscholas.model.CourseInterface;
 import com.github.perscholas.utils.IOConsole;
 
 import java.util.ArrayList;
