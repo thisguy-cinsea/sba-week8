@@ -20,8 +20,7 @@ public class SchoolManagementSystem implements Runnable {
                 String studentDashboardInput = getStudentDashboardInput();
                 if ("register".equals(studentDashboardInput)) {
                     Integer courseId = getCourseRegistryInput();
-                    CourseInterface course = null; // TODO - get literal value
-                    // TODO - define remaining procedure
+                    studentService.registerStudentToCourse(studentEmail, courseId);
                 }
             }
         }
