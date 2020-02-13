@@ -11,7 +11,7 @@ public class SchoolManagementSystem implements Runnable {
     private static final IOConsole console = new IOConsole();
 
     public void run() {
-        String smsDashboardInput = getSchoolMangementSystemDashboardInput();
+        String smsDashboardInput = getSchoolManagementSystemDashboardInput();
         if ("login".equals(smsDashboardInput)) {
             StudentDao studentService = null;
             String studentEmail = console.getStringInput("Enter your email:");
@@ -27,7 +27,7 @@ public class SchoolManagementSystem implements Runnable {
         }
     }
 
-    private String getSchoolMangementSystemDashboardInput() {
+    private String getSchoolManagementSystemDashboardInput() {
         return console.getStringInput(new StringBuilder()
                 .append("Welcome to the School Management System Dashboard!")
                 .append("\nFrom here, you can select any of the following options:")
