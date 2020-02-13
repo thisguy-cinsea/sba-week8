@@ -9,6 +9,7 @@ import java.util.List;
 public class SchoolManagementSystem implements Runnable {
     private static final IOConsole console = new IOConsole();
 
+    @Override
     public void run() {
         String smsDashboardInput = getSchoolManagementSystemDashboardInput();
         if ("login".equals(smsDashboardInput)) {

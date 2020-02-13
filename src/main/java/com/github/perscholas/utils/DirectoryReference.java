@@ -5,6 +5,7 @@ import java.io.File;
 /**
  * @author leonhunter
  * @created 02/12/2020 - 8:58 PM
+ * used to reference files from different one or more directories
  */
 public enum DirectoryReference {
     RESOURCE_DIRECTORY(new StringBuilder()
