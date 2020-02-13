@@ -1,5 +1,7 @@
 package com.github.perscholas;
 
+import com.github.perscholas.dao.StudentDao;
+import com.github.perscholas.model.CourseInterface;
 import com.github.perscholas.utils.IOConsole;
 
 import java.util.ArrayList;
@@ -11,10 +13,16 @@ public class SchoolManagementSystem implements Runnable {
     public void run() {
         String smsDashboardInput = getSchoolMangementSystemDashboardInput();
         if ("login".equals(smsDashboardInput)) {
-            String studentDashboardInput = getStudentDashboardInput();
-            if ("register".equals(studentDashboardInput)) {
-                Integer courseId = getCourseRegistryInput();
-                // TODO
+            StudentDao studentService = null;
+            String studentEmail = console.getStringInput("Enter your email:");
+            String studentPassword = console.getStringInput("Enter your password:");
+            if (studentService.validateStudent(studentEmail, studentPassword)) {
+                String studentDashboardInput = getStudentDashboardInput();
+                if ("register".equals(studentDashboardInput)) {
+                    Integer courseId = getCourseRegistryInput();
+                    CourseInterface course = null;
+                    // TODO
+                }
             }
         }
     }
