@@ -16,7 +16,8 @@ public class SchoolManagementSystem implements Runnable {
             StudentDao studentService = null; // TODO - get literal value
             String studentEmail = console.getStringInput("Enter your email:");
             String studentPassword = console.getStringInput("Enter your password:");
-            if (studentService.validateStudent(studentEmail, studentPassword)) {
+            Boolean isValidLogin = studentService.validateStudent(studentEmail, studentPassword);
+            if (isValidLogin) {
                 String studentDashboardInput = getStudentDashboardInput();
                 if ("register".equals(studentDashboardInput)) {
                     Integer courseId = getCourseRegistryInput();
