@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * @author leonhunter
  * @created 02/12/2020 - 6:26 PM
+ * used to convert files contents to String
  */
 public class FileReader {
 

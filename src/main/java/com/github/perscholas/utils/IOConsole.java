@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * @author leonhunter
  * @created 02/12/2020 - 6:01 PM
+ * used to output prompt to user and get input from user
  */
 public class IOConsole {
     private final Scanner input;
