@@ -1,3 +1,5 @@
+use SBA_week8;
+
 insert into Course (id, name, instructor) values (1, 'English', 'Anderea Scamaden');
 insert into Course (id, name, instructor) values (2, 'Mathematics', 'Eustace Niemetz');
 insert into Course (id, name, instructor) values (3, 'Anatomy', 'Reynolds Pastor');
